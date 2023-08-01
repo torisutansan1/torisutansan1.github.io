@@ -35,3 +35,7 @@ h3 {
 table {
     text-align: left;
 }
+
+td {
+    margin-top: 10px;
+}
