@@ -11,7 +11,7 @@ img {
 }
 
 body {
-    font-family: "Klee One";
+    font-family: 'Courier New', Courier, monospace;
     margin-left: 40px;
     width: 100%;
     background-color: #f2f4f5;
@@ -23,6 +23,7 @@ p.socials {
 }
 
 p {
+    font-family: "Klee One";
     width: 50%;
 }
 
