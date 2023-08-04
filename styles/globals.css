@@ -12,13 +12,14 @@ img {
 
 body {
     font-family: 'Courier New', Courier, monospace;
+    margin-right: 40px;
     margin-left: 40px;
     width: 100%;
     background-color: #f2f4f5;
 }
 
 p.socials {
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 h3 {
