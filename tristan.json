@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Tristan Cai",
+    "field": "Software Engineer",
+    "age": 22,
+    "profile_picture": "assets/images/tristan.jpg",
+    "date_of_birth": "2002-06-28",
+    "email": "torisutansan02@gmail.com",
+    "phone_number": "(909) 563-5400",
+    "resume": "Tristan Cai's 2025 Resume",
+    "projects": [
+      {
+        "name": "Rubbish Radar",
+        "desc": "Rubbish Radar is an app designed to help netizens find public waste bins. It displays 3 different types: combustible, recyclable, and landfill. A future version includes public facilities.",
+        "month": "May",
+        "year": 2023,
+        "icon": "assets/images/rubbishradar.svg",
+        "feature_1": { 
+          "name": "Vue.js", 
+          "desc": "Renders front-end content with the Vue.js framework, SPA application.", 
+          "icon": "assets/images/vue.svg" 
+        },
+        "feature_2": { 
+          "name": "Firebase", 
+          "desc": "Stors geolocation marker documents, and handles user authentication.", 
+          "icon": "assets/images/firebase.svg"
+        },
+        "feature_3": { 
+          "name": "GCP", 
+          "desc": "Integrats Google Maps API, interactive UI/UX to navigate to markers.", 
+          "icon": "assets/images/gcp.svg"
+        },
+        "resources": [
+          {
+            "name": "Github",
+            "desc": "Repository for my project",
+            "link": "https://github.com/torisutansan02"
+          },
+          {
+            "name": "Website",
+            "desc": "Website to access my project",
+            "link": "https://github.com/torisutansan02"
+          }
+        ],
+        "tech_stack": [
+          {
+            "name": "MongoDB",
+            "logo": "assets/images/mongodb.svg"
+          },
+          {
+            "name": "React",
+            "logo": "assets/images/react.svg"
+          }
+        ]
+      },
+      {
+        "name": "Budget Buddy",
+        "desc": "Budget Buddy is a MERN stack application for users to track their personal finances. It facilitates React Google Charts to display user spending habits. Authentication is handled with JWT.",
+        "month": "April",
+        "year": 2023,
+        "icon": "assets/images/budgetbuddy.svg",
+        "feature_1": { 
+          "name": "React", 
+          "desc": "React is the front-end framework used to query user's financial auditing info.", 
+          "icon": "assets/images/react.svg" 
+        },
+        "feature_2": { 
+          "name": "MongoDB", 
+          "desc": "MongoDB is the NoSQL document-oriented database program used to store data.", 
+          "icon": "assets/images/mongodb.svg" 
+        },
+        "feature_3": { 
+          "name": "Vercel", 
+          "desc": "Vercel is the cloud platform used to deploy and manage the front-end layer of Budget Buddy.", 
+          "icon": "assets/images/vercel.svg" 
+        },
+        "resources": [
+          {
+            "name": "Github",
+            "desc": "Repository for my project",
+            "link": "https://github.com/torisutansan02"
+          },
+          {
+            "name": "Website",
+            "desc": "Website to access my project",
+            "link": "https://github.com/torisutansan02"
+          }
+        ],
+        "tech_stack": [
+          {
+            "name": "Next.js",
+            "logo": "assets/images/nextjs.svg"
+          },
+          {
+            "name": "React",
+            "logo": "assets/images/react.svg"
+          },
+                    {
+            "name": "Next.js",
+            "logo": "assets/images/nextjs.svg"
+          },
+          {
+            "name": "React",
+            "logo": "assets/images/react.svg"
+          },
+                    {
+            "name": "Next.js",
+            "logo": "assets/images/nextjs.svg"
+          },
+          {
+            "name": "React",
+            "logo": "assets/images/react.svg"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,114 +1,114 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tristan Cai - Portfolio</title>
+    <link rel="stylesheet" href="styles/globals.css" />
+  </head>
+  <body>
+    <!-- Animated Bubbles Background -->
+    <div class="bubbles">
+        <span style="--i:11;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:23;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:20;"></span>
+        <span style="--i:22;"></span>
+        <span style="--i:25;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:21;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:26;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:28;"></span>
+        <span style="--i:11;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:23;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:20;"></span>
+        <span style="--i:22;"></span>
+        <span style="--i:25;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:21;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:26;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:28;"></span>
+    </div>
 
-<html lang = "en">
-    <head>
-        <meta charset = "utf-8" />
-        <title>
-            torisutansan
-        </title>
-        <link rel = "stylesheet" href = "styles/globals.css">
-        <meta name = "author" content = "Tristan Cai" />
-    </head>
+    <div class="container">
+      <!-- Navbar -->
+      <header class="navbar">
+        <div class="logo-section">
+          <h1>torisutan</h1>
+        </div>
+        <nav class="nav-menu">
+          <a href="#" class="nav-link"><img class="nav-icon" src="assets/images/home.svg" alt="Home"/>Home</a>
+          <a href="https://github.com/torisutansan02" class="nav-link" target="_blank"><img class="nav-icon" src="assets/images/github.svg" alt="GitHub"/>GitHub</a>
+          <a href="https://linkedin.com/in/torisutan" class="nav-link" target="_blank"><img class="nav-icon" src="assets/images/linkedin.svg" alt="LinkedIn"/>LinkedIn</a>
+          <a href="https://torisutan.org" class="nav-link" target="_blank"><img class="nav-icon" src="assets/images/about.svg" alt="About"/>About</a>
+          <a href="https://mail.google.com/mail/?view=cm&to=torisutansan02@gmail.com" class="nav-link" target="_blank"><img class="nav-icon" src="assets/images/contact.svg" alt="Contact"/>Contact</a>
+        </nav>
+        <div class="nav-gear-section">
+          <img class="nav-icon-small" src="assets/images/gear.svg" alt="Settings" />
+          <img class="nav-icon-small" src="assets/images/rightdots.svg" alt="More" />
+        </div>
+      </header>
 
-    <body>
-        <img class = "profile" src = "images/IMG_0335.JPG" alt = "Headshot">
-        <!-- My Name -->
-        <h1 id = "name"> Tristan Cai </h1> 
+      <!-- Dashboard Grid -->
+      <main class="dashboard">
+        <!-- Left Sidebar -->
+        <aside class="left-panel">
+          <div class="card-holder">
+            <h1>Project List</h1>
+            <div class="card-box" id="left-panel"></div>
+          </div>
+        </aside>
 
-        <!-- Some Info -->
-        <h2 id = "subheading"> 4th year CS major </h2>
-        <p>
-            <a class = "icons" href = "https://www.linkedin.com/in/torisutan/"> LinkedIn <img class = "socials" src = "images/LinkedIn.png" alt = "LinkedIn"> </a>
-        </p>
-        <p class = "socials"> 
-            The link to my LinkedIn above is the best way to contact me. 
-            If you have any further inquiries, please send me a message.
-            Alternatively, you can send an email to tcai019@ucr.edu.
-        </p>
-        
-        <!-- About Me -->
-        <h3 id = "about"> About </h3>
-        <p>
-            My name is Tristan and I am in Japan. I hope to make a lot of new friends.
-            I am happy to be with a group of people who share common interests with me.
-        </p>
+        <!-- Center Content -->
+        <section class="middle-panel">
+          <div class="card-holder">
+            <h1>Project Information</h1>
+            <div class="card-box">
+              <div class="project-desc" id="project-desc"></div>
+              <div id="features-cards" class="features-row"></div>
+            </div>
+          </div>
 
-        <!-- Work Experience -->
-        <h3 id = "work experience"> Work Experience </h3>
-        <table>
-            <thead>
-                <tr>
-                    <th> Company Name </th>
-                    <th> Job Title </th>
-                    <th> Date </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td> COTD </td>
-                    <td> DA </td>
-                    <td> 2020-2021 </td>
-                </tr>
-                <tr>
-                    <td colspan = "3"> 
-                        I was a dental assistant for a year during Covid.
-                        I am certified in radiation safety and sterilization.
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+          <div class="card-holder">
+            <h1>Resources</h1>
+            <div class="card-box" id="resources-list"></div>
+          </div>
+        </section>
 
-        <!-- Education -->
-        <h3 id = "education"> Education </h3>
-        <table>
-            <thead>
-                <tr>
-                    <th> School </th>
-                    <th> Major </th>
-                    <th> Year </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td> UCR </td>
-                    <td> Computer Science </td>
-                    <td> 2024 </td>
-                </tr>
-                <tr>
-                    <td colspan = "3"> 
-                        I am a 4th year computer science who attends UCR.
-                        I listen to a lot of post-punk and industrial music,
-                        hip-hop, et cetera.
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <!-- Right Sidebar -->
+        <aside class="right-panel">
+          <div class="card-holder">
+            <div class="card-box" id="profile"></div>
+          </div>
+          <div class="card-holder" id="tech-list">
+            <h1>Tech Stack</h1>
+            <div class="card-box" id="tech-info"></div>
+          </div>
+        </aside>
+      </main>
+    </div>
 
-        <!-- Coursework -->
-        <h3 id = "coursework"> Coursework </h3>
-        <ul>
-            <li> CS110: Principles of Web Development </li>
-            <li> CS175: Entrepreneurship in Computing </li>
-        </ul>
-
-        <!-- Skills -->
-        <h3 id = "skills"> Skills </h3>
-        <ul>
-            <li> HTML </li>
-            <li> CSS </li>
-            <li> JS </li>
-            <li> NextJS </li>
-        </ul>
-
-        <!-- Projects -->
-        <h3 id = "projects"> Projects </h3>
-        <ul>
-            <li>
-                <a href = "https://github.com/torisutansan02/torisutansan"> Personal Website </a>
-            </li>
-            <li>
-                <a href = "https://github.com/torisutansan02/BioHack-Project"> Dental Specialist Bot </a>
-            </li>
-        </ul>
-    </body>
+    <script src="script.js"></script>
+  </body>
 </html>
