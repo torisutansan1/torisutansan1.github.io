@@ -523,13 +523,13 @@ Profile Panel
     }
 
 
-  .navbar .logo-section {
-    display: none;
-  }
+    .navbar .logo-section {
+        display: none;
+    }
 
-  .nav-menu {
-    flex-direction: column;
-  }
+    .nav-menu {
+        flex-direction: column;
+    }
 
     .dashboard {
         display: flex;
@@ -538,9 +538,7 @@ Profile Panel
     }
 
     .card-holder {
-        background-color: rgba(255, 255, 255, 0.8); /* white with 80% opacity */
+        background-color: rgba(255, 255, 255, 0.6); /* white with 80% opacity */
         max-height: 50rem;
-        margin-bottom: 4rem;
     }
-
 }
