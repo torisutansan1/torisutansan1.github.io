@@ -93,7 +93,7 @@ Navbar
     align-items: center;
     margin: 1.5rem 2rem 1rem 2rem;
     padding: 0.75rem 2rem;
-    background: #c2c2c2;
+    background: rgb(226, 185, 255);
     color: #000000;
     border-radius: 16px;
 }
@@ -118,7 +118,7 @@ Navbar
 
 .nav-link:hover
 {
-    background-color: #f0f0f0;
+    background-color: rgb(197, 116, 255);
 }
 
 .nav-link.active 
@@ -167,6 +167,7 @@ Left Sidebar, Middle Sidebar, Right Sidebar
 }
 
 .left-panel .card-holder {
+    background-color: rgb(213, 227, 255);
     padding-left: 0;
     padding-right: 0;
 }
@@ -175,12 +176,21 @@ Left Sidebar, Middle Sidebar, Right Sidebar
     padding-left: 1rem;
 }
 
-#tech-info {
+.middle-panel #project-info-list {
+    background-color: rgb(227, 227, 255);
+}
+
+.middle-panel #resource-list {
+    background-color: rgb(227, 227, 255);
+}
+
+.right-panel #tech-info {
     padding-left: 0;
     padding-right: 0;
 }
 
 .right-panel #tech-list {
+    background-color: rgb(205, 255, 205);
     padding-left: 0;
     padding-right: 0;
 }
@@ -195,6 +205,10 @@ Left Sidebar, Middle Sidebar, Right Sidebar
 
 .right-panel #profile-desc {
     max-height: fit-content;
+}
+
+.right-panel #profile-list {
+    background-color: rgb(252, 226, 201);
 }
 
 .middle-panel #resources-list {
@@ -267,12 +281,12 @@ Projects Sidebar
 
 .project-item:hover
 {
-    background-color: #c2c2c2;
+    background-color: #cdffdf;
 }
 
 .project-item.selected
 {
-    background-color: #a8fff5;
+    background-color: #97ffbf;
 }
 
 .project-info
@@ -308,6 +322,8 @@ Project Information
     background-color: #d5c5ff;
     border-radius: 16px;
     padding: 1rem;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 .project-desc p {
@@ -352,8 +368,8 @@ Features
 
 .features-status
 {
-    font-size: 0.75rem;
-    color: #64748b;
+    font-size: 0.8rem;
+    color: #3f444b;
 }
 
 /*
@@ -370,7 +386,7 @@ Resources Table
 .resources-table th 
 {
     padding: 1rem;
-    background: #d4d4d4;
+    background: rgb(231, 197, 255);
     text-align: left;
     font-weight: bold;
     color: #1f2937;
@@ -391,7 +407,7 @@ Resources Table
 .resources-table td 
 {
     padding: 1rem;
-    border-bottom: 1px solid #d4d4d4;
+    border-bottom: 1px solid rgb(226, 185, 255);
 }
 
 .resources-table tr:last-child td 
@@ -401,7 +417,7 @@ Resources Table
 
 .resources-link {
     text-decoration: none;
-    color: #4d97ff;
+    color: #1500ff;
 }
 
 /*
@@ -425,7 +441,7 @@ Tech Stack
 
 .tech-list li:hover 
 {
-    background-color: #c2c2c2;
+    background-color: #ffd898;
 }
 
 .tech-logo {
