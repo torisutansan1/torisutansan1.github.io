@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     if (tristan) {
         setupNavLinkEvents();
-        renderAll(tristan, 0); // Show first project by default
+        renderAll(tristan, 0);
     }
 });
 
