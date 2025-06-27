@@ -56,6 +56,50 @@
       {
         "name": "Budget Buddy",
         "desc": "Budget Buddy is a MERN stack application for users to track their personal finances. It facilitates React Google Charts to display user spending habits. Authentication is handled with JWT.",
+        "month": "May",
+        "year": 2024,
+        "icon": "assets/images/budgetbuddy.svg",
+        "feature_1": { 
+          "name": "React", 
+          "desc": "React is the front-end framework used to query user's financial auditing info.", 
+          "icon": "assets/images/react.svg" 
+        },
+        "feature_2": { 
+          "name": "MongoDB", 
+          "desc": "MongoDB is the NoSQL document-oriented database program used to store data.", 
+          "icon": "assets/images/mongodb.svg" 
+        },
+        "feature_3": { 
+          "name": "Vercel", 
+          "desc": "Vercel is the cloud platform used to deploy and manage the front-end layer of Budget Buddy.", 
+          "icon": "assets/images/vercel.svg" 
+        },
+        "resources": [
+          {
+            "name": "Github",
+            "desc": "Repository for my project",
+            "link": "https://github.com/torisutansan02"
+          },
+          {
+            "name": "Website",
+            "desc": "Website to access my project",
+            "link": "https://github.com/torisutansan02"
+          }
+        ],
+        "tech_stack": [
+          {
+            "name": "Next.js",
+            "logo": "assets/images/nextjs.svg"
+          },
+          {
+            "name": "React",
+            "logo": "assets/images/react.svg"
+          }
+        ]
+      },
+      {
+        "name": "Personal Blogs",
+        "desc": "TODO: Fill Out Info.",
         "month": "April",
         "year": 2023,
         "icon": "assets/images/budgetbuddy.svg",
@@ -94,16 +138,44 @@
           {
             "name": "React",
             "logo": "assets/images/react.svg"
-          },
-                    {
-            "name": "Next.js",
-            "logo": "assets/images/nextjs.svg"
+          }
+        ]
+      },
+      {
+        "name": "Pacman on Arduino",
+        "desc": "TODO: Fill Out Info.",
+        "month": "April",
+        "year": 2023,
+        "icon": "assets/images/budgetbuddy.svg",
+        "feature_1": { 
+          "name": "React", 
+          "desc": "React is the front-end framework used to query user's financial auditing info.", 
+          "icon": "assets/images/react.svg" 
+        },
+        "feature_2": { 
+          "name": "MongoDB", 
+          "desc": "MongoDB is the NoSQL document-oriented database program used to store data.", 
+          "icon": "assets/images/mongodb.svg" 
+        },
+        "feature_3": { 
+          "name": "Vercel", 
+          "desc": "Vercel is the cloud platform used to deploy and manage the front-end layer of Budget Buddy.", 
+          "icon": "assets/images/vercel.svg" 
+        },
+        "resources": [
+          {
+            "name": "Github",
+            "desc": "Repository for my project",
+            "link": "https://github.com/torisutansan02"
           },
           {
-            "name": "React",
-            "logo": "assets/images/react.svg"
-          },
-                    {
+            "name": "Website",
+            "desc": "Website to access my project",
+            "link": "https://github.com/torisutansan02"
+          }
+        ],
+        "tech_stack": [
+          {
             "name": "Next.js",
             "logo": "assets/images/nextjs.svg"
           },
